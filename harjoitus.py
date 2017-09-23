@@ -4,6 +4,7 @@ def Guessing():
     TheNumber = random.randint(1, 100)
     TotalGuesses = 1
     Guess = int(input('Your guess is: '))
+    
     while Guess != TheNumber:
         TotalGuesses += 1
         if Guess < TheNumber:
